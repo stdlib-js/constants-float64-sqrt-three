@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@deno/mod.js';
+import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@v0.0.8-deno/mod.js';
 ```
 
 #### SQRT3
@@ -56,7 +56,7 @@ var bool = ( SQRT3 === 1.7320508075688772 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@deno/mod.js';
+import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@v0.0.8-deno/mod.js';
 
 console.log( SQRT3 );
 // => 1.7320508075688772
