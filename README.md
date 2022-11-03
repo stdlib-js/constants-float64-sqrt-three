@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-sqrt-three/tags). For example,
+
+```javascript
 import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@v0.0.8-esm/index.mjs';
 ```
 
@@ -61,7 +66,7 @@ var bool = ( SQRT3 === 1.7320508075688772 );
 <body>
 <script type="module">
 
-import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@v0.0.8-esm/index.mjs';
+import SQRT3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-three@esm/index.mjs';
 
 console.log( SQRT3 );
 // => 1.7320508075688772
